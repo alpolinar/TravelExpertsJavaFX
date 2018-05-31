@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="frmMainView" prefHeight="679.0" prefWidth="1300.0" style="-fx-border-color: #000000; -fx-background-color: #f4f4f4; -fx-border-width: 1px;" styleClass="root" stylesheets="@../style/mainview.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane fx:id="paneDashboardPanel" layoutX="1.0" layoutY="1.0" prefHeight="692.0" prefWidth="223.0" style="-fx-background-color: #2196F3;">
+         <children>
+            <ImageView fitHeight="102.0" fitWidth="122.0" layoutX="51.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/travel-logo.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="16.0" layoutY="116.0" text="TravelExperts" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Label>
+            <JFXButton fx:id="btnDashboard" alignment="BASELINE_LEFT" graphicTextGap="10.0" layoutY="177.0" onAction="#openDashboard" prefHeight="57.0" prefWidth="223.0" text="DASHBOARD" textAlignment="JUSTIFY" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <graphic>
+                  <ImageView fitHeight="57.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/icon-dashboard.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton fx:id="btnPackage" alignment="BASELINE_LEFT" graphicTextGap="10.0" layoutY="234.0" onAction="#openPackageManager" prefHeight="57.0" prefWidth="223.0" text="PACKAGES" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <graphic>
+                  <ImageView fitHeight="57.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/icon-packages.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton fx:id="btnProduct" alignment="BASELINE_LEFT" graphicTextGap="10.0" layoutY="291.0" onAction="#openProductManager" prefHeight="57.0" prefWidth="223.0" text="PRODUCTS" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <graphic>
+                  <ImageView fitHeight="57.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/icon-products.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton fx:id="btnBooking" alignment="BASELINE_LEFT" graphicTextGap="10.0" layoutY="348.0" onAction="#openBookingManager" prefHeight="57.0" prefWidth="223.0" text="BOOKINGS" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <graphic>
+                  <ImageView fitHeight="57.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/icon-booking.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton fx:id="btnSupplier" alignment="BASELINE_LEFT" graphicTextGap="10.0" layoutX="1.0" layoutY="405.0" onAction="#openSupplierManager" prefHeight="57.0" prefWidth="223.0" text="SUPPLIERS" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <graphic>
+                  <ImageView fitHeight="57.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/icon-supplier.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton fx:id="btnAgency" alignment="BASELINE_LEFT" graphicTextGap="10.0" layoutX="1.0" layoutY="462.0" onAction="#openAgencyManager" prefHeight="57.0" prefWidth="223.0" text="AGENCIES" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <graphic>
+                  <ImageView fitHeight="57.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/icon-agency.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton fx:id="btnAgents" alignment="BASELINE_LEFT" graphicTextGap="10.0" layoutY="519.0" onAction="#openAgentsManager" prefHeight="57.0" prefWidth="223.0" text="AGENTS" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <graphic>
+                  <ImageView fitHeight="57.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/icon-agents.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton fx:id="btnCustomer" alignment="BASELINE_LEFT" graphicTextGap="10.0" layoutY="576.0" onAction="#openCustomerManager" prefHeight="57.0" prefWidth="223.0" styleClass="customer" text="CUSTOMERS" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <graphic>
+                  <ImageView fitHeight="57.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/icon-user.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton fx:id="btnLogout" alignment="BASELINE_LEFT" graphicTextGap="10.0" layoutY="633.0" onAction="#accountLogout" prefHeight="57.0" prefWidth="223.0" styleClass="logout" stylesheets="@../style/mainview.css" text="LOGOUT" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="57.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/icon-logout.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+         </children>
+         <effect>
+            <DropShadow blurType="GAUSSIAN" color="#ababab" />
+         </effect>
+      </Pane>
+      <Pane fx:id="paneDashboardHeader" layoutX="224.0" layoutY="1.0" prefHeight="41.0" prefWidth="1074.0" styleClass="dashboard-content-header">
+         <children>
+            <Label alignment="CENTER" layoutX="1042.0" layoutY="4.0" onMouseClicked="#exitApplication" prefHeight="27.0" prefWidth="30.0" text="x">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblAgentName" layoutX="14.0" layoutY="8.0" text="Agent Name" textFill="#2196f3">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Label>
+         </children>
+         <effect>
+            <DropShadow blurType="GAUSSIAN" color="#ababab" spread="0.22" />
+         </effect>
+      </Pane>
+      <AnchorPane fx:id="apDashboardContentArea" layoutX="224.0" layoutY="42.0" prefHeight="651.0" prefWidth="1074.0">
+         
+      </AnchorPane>
+   </children>
+   <effect>
+      <DropShadow blurType="GAUSSIAN" />
+   </effect>
+</AnchorPane>

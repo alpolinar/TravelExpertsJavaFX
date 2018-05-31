@@ -1,0 +1,14 @@
+.root {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 5px;
+}
+.login-bg {
+    -fx-background-color: rgba(33, 150, 243,0.8);
+}
+.login-bg-img {
+    -fx-background-position: -270px;
+    -fx-background-image: url("../img/login-bg.jpg");
+}
+.login-button {
+    -fx-background-color: #2196F3;
+}
